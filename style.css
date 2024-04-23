@@ -1,0 +1,105 @@
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  color: #de0303; 
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  
+}
+
+.card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px; 
+  height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.card-header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.card-img-top {
+  padding: 15px;
+  width: 90%; 
+  height: auto; 
+  border-radius: 10px;
+  margin: 0 auto; 
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center; 
+}
+
+.countryName {
+  font-family: cursive;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+
+.card-text {
+  font-family: cursive;
+  font-weight: bold;
+  color: #0db904; 
+  text-align: center;
+}
+
+.title {
+  color: #007bff; 
+}
+
+.answer {
+  color: #ff4500;
+}
+
+.weatherButton {
+  width: 50%;
+  height: 50px;
+  background-color: #007bff; 
+  color: #fff; 
+  font-family: cursive;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.weatherButton:hover {
+  background-color: #0056b3;
+}
+
+.weather-report {
+  padding-top: 10px;
+  font-family: cursive;
+  font-weight: bold;
+  color: #d66e06;
+}
